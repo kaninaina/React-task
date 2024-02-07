@@ -1,0 +1,23 @@
+.action-card {
+  width: fit-content;
+  height: 30px;
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px;
+  background-color: #4c97ff;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.action-card:active {
+  box-shadow: 0px 0px 10px rgb(24, 89, 0);
+}
+.action-card p {
+  font-size: 12px;
+}
+.action-card input {
+  width: 32px;
+  height: 20px;
+  border-radius: 15px;
+  text-align: center;
+}

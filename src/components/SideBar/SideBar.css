@@ -1,0 +1,64 @@
+.side-nav-bar-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+.side-nav-bar-container .nav-link-container {
+  width: 60px;
+  height: 100%;
+  overflow: auto;
+  border-right: 1px solid black;
+}
+.nav-item-container {
+  width: calc(100% - 60px);
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-right: 2px solid black;
+}
+.side-nav-bar-container .nav-link-container nav {
+  width: 100%;
+  height: fit-content;
+}
+.side-nav-bar-container .nav-link-container nav ul {
+  list-style-type: none;
+  width: 100%;
+  height: fit-content;
+}
+
+.side-nav-bar-container .nav-link-container nav ul li {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 0px;
+  font-size: 12px;
+  border-bottom: 1px solid black;
+}
+.side-nav-bar-container .nav-link-container nav ul li div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.nav-item-container .nav-item {
+  width: 100%;
+  height: fit-content;
+}
+.nav-item-container .nav-item > p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.nav-item-container .nav-item ul {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,17 @@
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #e6f0ff;
+  box-sizing: border-box;
+  padding: 10px 10px 0px 0px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  z-index: 0;
+}
+.left-view-container {
+  height: 100%;
+  width: fit-content;
+  width: calc(100% - 490px);
+}
